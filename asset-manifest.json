@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dimostenis.com/static/css/main.efd4eac4.css",
-    "main.js": "/dimostenis.com/static/js/main.ce1bd055.js",
-    "static/js/453.aac68abc.chunk.js": "/dimostenis.com/static/js/453.aac68abc.chunk.js",
-    "static/media/logo.svg": "/dimostenis.com/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/dimostenis.com/index.html",
-    "main.efd4eac4.css.map": "/dimostenis.com/static/css/main.efd4eac4.css.map",
-    "main.ce1bd055.js.map": "/dimostenis.com/static/js/main.ce1bd055.js.map",
-    "453.aac68abc.chunk.js.map": "/dimostenis.com/static/js/453.aac68abc.chunk.js.map"
+    "main.css": "/static/css/main.efd4eac4.css",
+    "main.js": "/static/js/main.914a45f2.js",
+    "static/js/453.aac68abc.chunk.js": "/static/js/453.aac68abc.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.efd4eac4.css.map": "/static/css/main.efd4eac4.css.map",
+    "main.914a45f2.js.map": "/static/js/main.914a45f2.js.map",
+    "453.aac68abc.chunk.js.map": "/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.efd4eac4.css",
-    "static/js/main.ce1bd055.js"
+    "static/js/main.914a45f2.js"
   ]
 }
