@@ -60,7 +60,6 @@
             setTimeout(makeBodyVisible, 3000); // Ensure visibility after 3 seconds as a fallback
         </script>
     </head>
-    <div w3-include-html="../Navigation/nav.html"></div>
     <main>
         <div id="nav-placeholder"></div>
         <div id="tabName">
@@ -285,7 +284,7 @@
         
         <script>
             // Get the link element
-        var link = document.getElementById('stylesheet');
+            var link = document.getElementById('stylesheet');
             document.addEventListener("DOMContentLoaded", function() {
                 fetch('../Navigation/nav.html')
                     .then(response => response.text())
