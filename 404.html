@@ -1,10 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Not Found</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		.pnf{
+			height: 100vh;
+			width: 100vw;
+			align-content: center;
+			text-align: center;
+			color: #00888f;
+		}
+
+		.pnf h2{
+			font-size: 4rem;
+			font-weight: bold;
+		}
+
+		.pnf p{
+			color: #ff6f61;
+			font-weight: bold;
+			font-size: 1.5rem;
+			margin: 0 0 2.5rem  !important;
+		}
+
+		.pnf-link{
+			font-size: 2rem !important;
+			color: #f7f7f7;
+			background-color: #00888f;
+			padding: 1rem;
+			border-radius: 0.15rem;
+			box-shadow: none;
+			transition: box-shadow 0.25s;
+		}
+
+		.pnf-link:hover{
+			box-shadow: 0 0 0 0.5rem #2dafb6;
+		}
+
+		.pnf-link:active{
+			box-shadow: 0 0 0 0.35rem #2dafb6;
+		}
+	</style>
 </head>
 <body>
+	<div class='pnf'>
+        <h2><BsExclamationTriangle /></h2>
+        <h2>404 Page Not Found</h2>
+        <p>Please click the home button to go back to the home page.</p>
+        <a class="pnf-link" href="https://www.dimostenis.com/">HOME<a/>
+    </div>
 </body>
 </html>
