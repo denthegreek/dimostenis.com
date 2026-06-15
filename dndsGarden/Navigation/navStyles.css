@@ -74,6 +74,23 @@
     nav li:hover{
         border-bottom: 0.15rem solid white;
     }
+    nav li.active-nav {
+        color: #222;
+        background: #d2ebe9;
+        border-bottom-color: #d2ebe9;
+        border-radius: 0.25rem;
+        padding: 0 0.45rem;
+        cursor: default;
+        min-width: max-content;
+    }
+    nav li.active-nav a {
+        color: #222;
+        display: inline-block;
+        pointer-events: none;
+    }
+    nav li.active-nav:hover {
+        border-bottom-color: #d2ebe9;
+    }
     a{
         color: inherit;
         text-decoration: none;
@@ -141,13 +158,26 @@
         border-radius: 0.5rem;
     }
     nav li{
-        font-size: 1.rem;
+        font-size: 1rem;
         font-weight: bold;
         margin: 0 0.5rem;
         cursor: pointer;
         color: #d2ebe9;
         text-align: center;
         text-decoration: none;
+    }
+    nav li.active-nav {
+        color: #222;
+        background: #d2ebe9;
+        border-radius: 0.25rem;
+        padding: 0 0.45rem;
+        cursor: default;
+        min-width: max-content;
+    }
+    nav li.active-nav a {
+        color: #222;
+        display: inline-block;
+        pointer-events: none;
     }
     a{
         color: inherit;
