@@ -1,0 +1,20 @@
+{
+  "wedding": {
+    "language": "el",
+    "pageTitle": "Η σελίδα δεν βρέθηκε | Προσκλητήριο γάμου",
+    "heading": "Μάλλον χάθηκες λίγο στον δρόμο",
+    "message": "Η σελίδα που αναζητάς δεν υπάρχει, αλλά το προσκλητήριό μας σε περιμένει.",
+    "countdown": "Θα επιστρέψεις στο προσκλητήριο σε {seconds} δευτερόλεπτα.",
+    "link": "Επιστροφή τώρα",
+    "target": "/wedding/"
+  },
+  "portfolio": {
+    "language": "en",
+    "pageTitle": "Page not found | dimostenis.com",
+    "heading": "This page wandered off",
+    "message": "The page you were looking for is not here, but the main site is ready for you.",
+    "countdown": "Returning home in {seconds} seconds.",
+    "link": "Return now",
+    "target": "/"
+  }
+}
